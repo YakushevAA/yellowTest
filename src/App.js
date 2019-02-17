@@ -29,11 +29,9 @@ class App extends Component {
           }
 
         return (
-            <div>
-                <Layout>
-                    {routes}
-                </Layout>
-            </div>
+            <Layout>
+                {routes}
+            </Layout>
         );
     }
 }

@@ -1,0 +1,9 @@
+.Main {
+    height: calc(100% - 116px);
+}
+
+@media (max-width: 499px) {
+    .Main {
+        height: calc(100% - 77px);
+    }
+}

@@ -20,7 +20,10 @@ class Auth extends Component {
         return (
             <div className={classes.Auth}>
                 {authRedirect}
-                <Button clicked={this.login}>Let Me In</Button>
+                <div className={classes.Login}>
+                    <div className={classes.Bear}></div>
+                    <Button clicked={this.login}>Let Me In</Button>
+                </div>
             </div>
         );
     }
